@@ -10,5 +10,7 @@ module com.biblio {
     exports com.biblio;
     exports com.biblio.controller;
     opens com.biblio.controller to javafx.fxml;
+    opens com.biblio.model to javafx.base;
+
 
 }
